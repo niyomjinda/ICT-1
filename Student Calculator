@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fees Calculator | James Cook University Brisbane
+		</title>
+<meta name="description" content='A list of fees for diploma, undergraduate and postgraduate programs available at the Brisbane campus.'>
+<meta name="keywords" content='James Cook University Brisbane, tuition, fees, postgradaute, undergraduate, diploma, English'>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="robots" content="index, follow" />
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="jcub2011-print.css" media="print" />
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" href="/css/jcub2011-stylesie.css" />
+<![endif]-->
+<link href="media/jcub.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="apple-touch-icon" href="media/jcubrisbane-icon-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="media/jcubrisbane-icon-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="media/jcubrisbane-icon-144.png" />
+<link rel="stylesheet" type="text/css" href="jcub2011-styles.css" />
+<script type="text/javascript" src="scripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.tools.min.js"></script>
+<script type="text/javascript" src="scripts/tabs-hacked.js"></script>
+<script type="text/javascript" src="scripts/jquery.validate.js"></script>
+<script type="text/javascript" src="scripts/jquery.expander.js"></script>
+<script type="text/javascript" src="scripts/jquery.jswipe-0.1.2.js"></script>
+<script type="text/javascript" src="scripts/jcub2011-extras.js"></script>
+<script type="text/javascript" src="scripts/jquery.fader.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8798819-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#calculator li a").click(function() {
+			$("#calculator div").removeClass("showCal");
+			$("#" + $(this).attr("name")).addClass("showCal");
+		});
+	});
+</script>
+</head>
+
+<body class="courses "></body>
+	<div id="container" class="fixedwidthcentered">
+	
+  
+    <div id="header" class="fixedwidthcentered">
+	<img id="logo-print" src="media/logo-jcub-print.png" alt="JCUB Print Logo" />
+        <a href="/" title="Home" id="logo"><img src="media/logo-jcub.png" alt="James Cook University Brisbane" /></a>
+	<ul id="logintabs"><li class="e-students"><a href="/students/student-portal.aspx" title="Students">Students</a></li><li class="staff"><a href="/staff-login.aspx" title="Staff">Staff</a></li><li class="agents"><a href="/agents.aspx" title="Agents">Agents</a></li></ul>
+    </div>
+ 
+    <div id="hnav" class="newnav clearfix fixedwidthcentered">
+	<ul class="fixedwidthcentered clearfix"><li class="navitem"><a href="/students.aspx">Students</a><span class="pipe">|</span><ul class="dropdown shdw"><li class="child"><a href="/students/student-services.aspx">Student Services</a><span class="pipe">|</span></li><li class="child"><a href="/students/general-services.aspx">General Services</a><span class="pipe">|</span></li><li class="child"><a href="/students/subject-information.aspx">Subject Information</a><span class="pipe">|</span></li><li class="child"><a href="/students/important-dates.aspx">Important Dates</a><span class="pipe">|</span></li><li class="child"><a href="/students/new-students.aspx">New Students</a><span class="pipe">|</span></li><li class="child"><a href="/students/graduation-and-alumni.aspx">Graduation and Alumni</a><span class="pipe">|</span></li><li class="child"><a href="/students/testimonials.aspx">Testimonials</a><span class="pipe">|</span></li><li class="child"><a href="/students/video-testimonials.aspx">Video Testimonials</a><span class="pipe">|</span></li></ul></li><li class="navitem"><a href="/courses.aspx">Courses</a><span class="pipe">|</span><ul class="dropdown shdw"><li class="child"><a href="/courses/undergraduate.aspx">Undergraduate</a><span class="pipe">|</span></li><li class="child"><a href="/courses/postgraduate.aspx">Postgraduate</a><span class="pipe">|</span></li><li class="child"><a href="/courses/work-integrated-learning.aspx">Work-Integrated Learning</a><span class="pipe">|</span></li><li class="child"><a href="/courses/internships.aspx">Internships</a><span class="pipe">|</span></li><li class="child"><a href="/courses/entry-requirements.aspx">Entry Requirements</a><span class="pipe">|</span></li><li class="child"><a href="/courses/pathways.aspx">Pathways</a><span class="pipe">|</span></li><li class="child"><a href="/courses/fees.aspx">Fees</a><span class="pipe">|</span></li><li class="child"><a href="/courses/how-to-apply.aspx">How To Apply</a><span class="pipe">|</span></li><li class="child"><a href="/courses/mba-(weekend-based-program).aspx">MBA (Weekend Based Program)</a></li></ul></li><li class="navitem"><a href="/employers.aspx">Employers</a><span class="pipe">|</span><ul class="dropdown shdw"><li class="child"><a href="/employers/employment-service.aspx">Employment Service</a><span class="pipe">|</span></li><li class="child"><a href="/employers/host-an-intern.aspx">Host An Intern</a><span class="pipe">|</span></li><li class="child"><a href="/employers/corporate-training.aspx">Corporate Training</a></li></ul></li><li class="navitem"><a href="/careers.aspx">Careers</a><span class="pipe">|</span><ul class="dropdown shdw"><li class="child"><a href="/careers/students.aspx">Students</a><span class="pipe">|</span></li><li class="child"><a href="/careers/employers.aspx">Employers</a><span class="pipe">|</span></li><li class="child"><a href="http://joblinx.com.au" target="_blank">Joblinx</a></li></ul></li><li class="navitem"><a href="/news-events.aspx">News &amp; Events</a><span class="pipe">|</span><ul class="dropdown shdw"><li class="child"><a href="/news-events/news.aspx">News</a><span class="pipe">|</span></li><li class="child"><a href="/news-events/events.aspx">Events</a></li></ul></li><li class="navitem"><a href="/about-us.aspx">About Us</a><span class="pipe">|</span><ul class="dropdown shdw"><li class="child"><a href="/about-us/vc's-welcome.aspx">VC's Welcome</a><span class="pipe">|</span></li><li class="child"><a href="/about-us/brisbane-campus.aspx">Brisbane Campus</a><span class="pipe">|</span></li><li class="child"><a href="/about-us/our-staff-.aspx">Our Staff </a><span class="pipe">|</span></li><li class="child"><a href="/about-us/our-locations.aspx">Our Locations</a><span class="pipe">|</span></li><li class="child"><a href="/about-us/image-gallery.aspx">Image Gallery</a><span class="pipe">|</span></li><li class="child"><a href="/about-us/publications.aspx">Publications</a><span class="pipe">|</span></li><li class="child"><a href="/about-us/faqs.aspx">FAQs</a><span class="pipe">|</span></li><li class="child"><a href="/about-us/contact-us.aspx">Contact Us</a></li></ul></li><li class="navitem" id="htgtj-search"><div id="htgtj-search-wrapper"><form action="/search.aspx" name="coursesearch-form" id="coursesearch-form" method="post"><input type="text" name="search" id="coursesearch-field" value="Search..." onfocus="document.forms['coursesearch-form'].search.value='';" onblur="if (document.forms['coursesearch-form'].search.value == '') document.forms['coursesearch-form'].search.value='Search...';" /><input type="submit" name="coursesearch-submit" id="coursesearch-submit" value="Go" /></form></div></li></ul>
+    </div>
+    
+    <div id="jcub2011-wrapper">
+	
+
+<div id="content" class="fixedwidthcentered written" style="background-image:url(media/feeTitle.jpg);" >
+	<div id="category-navigation" style="background-image:url();">
+  <h2><a href="/courses.aspx">Courses</a></h2>
+  <ul class="Level1">
+    <li><a href="/courses/undergraduate.aspx">Undergraduate</a></li>
+    <li><a href="/courses/postgraduate.aspx">Postgraduate</a></li>
+    <li><a href="/courses/work-integrated-learning.aspx">Work-Integrated Learning</a></li>
+    <li><a href="/courses/internships.aspx">Internships</a></li>
+    <li><a href="/courses/entry-requirements.aspx">Entry Requirements</a></li>
+    <li><a href="/courses/pathways.aspx">Pathways</a></li>
+    <li class="active1"><a href="/courses/fees.aspx">Fees</a></li>
+    <ul class="Level2">
+      <li class="child-nav-item"><a href="/courses/fees/domestic-fees.aspx">Domestic Fees</a></li>
+      <li class="child-nav-item"><a href="/courses/fees/scholarships--bursaries.aspx">Scholarships &amp; Bursaries</a></li>
+      <li class="child-nav-item"><a href="/courses/fees/student-services-and-amenities-fee.aspx">Student Services and Amenities Fee</a></li>
+      <li class="child-nav-item active2"><a href="#">Fees Calculator</a></li>
+    </ul>
+    <li><a href="/courses/how-to-apply.aspx">How To Apply</a></li>
+    <li><a href="/courses/mba-(weekend-based-program).aspx">MBA (Weekend Based Program)</a></li>
+  </ul>
+</div>
+	<div id="copy" class="tester">
+		<a class="print-page" href="#" onclick="window.print();return false">Print this page</a>
+		<div id="umbBreadCrumb"><a href="/james-cook-university-brisbane-2011.aspx">Welcome to James Cook University Brisbane</a>
+		&gt;
+        <a href="/courses.aspx">Courses </a>
+		&gt;
+        <a href="/courses/fees.aspx">Fees</a> > Fees Calculator</div>
+<!--
+		<h1>Fees & Costs</h1>
+		<h2>Tuition Fees</h2>
+<p>Tuition fees are in Australian dollars and are yearly fees based on enrolment in eight subjects per year. If a student chooses to enrol in more than eight subjects per year, the tuition fees payable will increase pro rata according to the number of subjects in which they are enrolled. Fees quoted for the PQP programs are for four subjects, which is the total number of subjects that have to be completed in these courses.</p>
+<p>The tuition fee liability incurred by Continuing Students is subject to increase at a rate compounded annually based on the student's year of commencement, in increments of not greater than 4 per cent or the annual Australian CPI rate. All subsequent increments are applied from 1 January each year, irrespective of the Teaching Period/Trimester in which the student commenced. Please refer to the <a href="http://www.jcu.edu.au/policy/student/allsp/JCUDEV_005357.html" target="_blank">tuition fee policy</a> for further information.</p>
+<p>Fees are correct at time of printing and may be subject to change without notice. All three trimesters are compulsory enrolment periods for students who are studying while on a student visa. A trimester is approximately four months long.</p>
+<p>Click on one of the below links for a detailed list of tuition fees for the different programs we offer:</p>
+<ul>
+<li><a href="/courses/fees/international-fees-(1).aspx" title="International Fees (1)">International Tuition Fees</a> - for international students</li>
+<li><a href="/courses/fees/domestic-fees.aspx" title="Domestic Fees">Domestic Tuition Fees</a> - for Australian Citizens and Permanent Residents</li>
+</ul>
+<p>If you have any concerns or questions regarding your fees please email: <a href="mailto:studentfinanceofficer@jcub.edu.au">studentfinanceofficer@jcub.edu.au</a></p>
+<div></div>
+		
+-->		
+	<!----------------------Start of Fee Calculator Content----------------------------------------------------------------------------------------->
+		<div id="calculator">
+			<ul>
+				<li><a href="javascript:void(0);" name="GFCal" title="General Fee Calculator">General Fee</a></li>
+				<li><a href="javascript:void(0);" name="SSCal" title="Split Saving Calculator">Split Saving</a></li>
+				<li><a href="javascript:void(0);" name="IECal" title="Income-Expense Calculator">Income & Expense</a></li>
+			</ul>
+			<div id="GFCal">
+				General Fee Calculator
+			</div>
+			<div id="SSCal" class="showCal" align="center">
+				Split Saving Calculator
+				<table id="SSCal" style="border:0px solid black;" width="650">
+					<tr>
+						<td width="250">Type of Student
+						</td>
+						<td>
+							<select>
+								<option>- Select One -</option>
+								<option>Domestic Student</option>
+								<option>International Student</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Course
+						</td>
+						<td>
+							<select>
+								<option>- Select One -</option>
+								<option disabled>- Diploma -</option>
+								<option>Diploma of Business</option>
+								<option disabled>- Undergraduate -</option>
+								<option>Bachelor of Business (Accounting)</option>
+								<option>Bachelor of Business (Hospitality & Tourism Management)</option>
+								<option disabled>- Postgraduate -</option>
+								<option>Master of Business Administration (MBA)</option>
+								<option>Master of International Tourism & Hospitality Management</option>
+								<option disabled>- Joint Master Programs -</option>
+								<option>MIT/MBA</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Study Period
+						</td>
+						<td>
+							<select>
+								<option>- Select One -</option>
+								<option>SP21_MAR2015</option>
+								<option>SP22_JUL2015</option>
+								<option>SP23_NOV2015</option>
+								<option>SP21_MAR2016</option>
+								<option>SP22_JUL2016</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Time Duration
+						</td>
+						<td><input type="date" value="today"></input> TO <input type="date" value="2015-09-22"></input>
+						</td>
+					</tr>
+					<tr>
+						<td>Number of Subjects
+						</td>
+						<td>
+							<select>
+								<option>- Select One -</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Fee per Subject
+						</td>
+						<td>3000
+						</td>
+					</tr>
+					<tr>
+						<td>Fee to be Paid
+						</td>
+						<td>XZY
+						</td>
+					</tr>
+					<tr>
+						<td>Student Service & Amenities Fee (SSA)
+						</td>
+						<td>XYZ
+						</td>
+					</tr>
+					<tr>
+						<td>Total Fee Payable
+						</td>
+						<td>XYZ
+						</td>
+					</tr>
+					<tr>
+						<td>Amount Saved
+						</td>
+						<td>XYZ
+						</td>
+					</tr>
+					<tr>
+						<td>Saving Required
+						</td>
+						<td>XYZ
+						</td>
+					</tr>
+					<tr>
+						<td>
+						</td>
+						<td>Button
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="IECal">
+				Income & Expense Calculator
+			</div>
+		</div>		
+	<!---------------------------------------------------------------------------------------------------------------------------------------------->
+		<div class="clearfix top">
+			<a href="#container">Top of page</a>
+		</div>
+		<div id="social"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=137058209645668&amp;xfbml=1"></script><fb:like href="" send="true" width="450" show_faces="false" font="lucida grande"></fb:like></div>
+		<div id="subcontent">
+		</div>
+        </div>
+	<div id="feature">
+		<div id="why-choose"><span class="header">Why Choose JCU Brisbane?</span><ul>
+    <li class="reason" id="why-choose2"><a href="/about-us/brisbane-campus.aspx#Trimester" style="background-image:url(media/icn-whychoose1.jpg)" title="3 Start Dates A Year - March, July &amp; November">3 Start Dates A Year - March, July &amp; November</a></li>
+    <li class="reason" id="why-choose3"><a href="/courses/internships.aspx" style="background-image:url(media/icn-whychoose2.jpg)" title="Professional Internships">Professional Internships</a></li>
+    <li class="reason" id="why-choose4"><a href="/employers.aspx" style="background-image:url(media/icn-whychoose3.jpg)" title="Free Employment Services">Free Employment Services</a></li>
+    <li class="reason" id="why-choose5"><a href="/students/student-services/student-resource-centre.aspx" style="background-image:url(media/icn-whychoose4.jpg)" title="Student Resource Centre">Student Resource Centre</a></li>
+  </ul><a href="http://www.jcub.edu.au/courses/how-to-apply/application-forms.aspx" class="apply-now" title="Apply Now!">Apply Now!</a></div>
+	</div>
+</div>
+
+
+    </div>
+
+    <div id="fat-footer"><ul class="fixedwidthcentered nolist"><li class="col" id="col1"><ul><li class="ffhead"><a href="/students.aspx" title="Students">Students</a></li><li class="ffitem"><p><a href="/courses/how-to-apply/application-forms.aspx" title="Application Forms">Applications</a>, <a href="/students/new-students.aspx" title="New Students">New Students</a>, <a href="/students/subject-information.aspx" title="Subject Info">Subjects</a>, <a href="/students/general-services.aspx" title="Services">Services</a>, <a href="/students/student-portal.aspx" title="Student Portal">Student Portal</a>, <a href="http://www-public.jcu.edu.au/libcomp/computing/email/index.htm">JCU Webmail</a>, <a href="http://www.jcub.edu.au/students/general-services/library-resources.aspx">Library</a></p></li><li class="ffhead"><a href="/courses.aspx" title="Courses">Courses</a></li><li class="ffitem"><p><a href="/courses/fees.aspx" title="Fees">Fees</a>, <a href="/courses/undergraduate.aspx" title="Undergraduate">Undergraduate</a>, <a href="/courses/postgraduate.aspx" title="Postgraduate">Postgraduate</a>, <a href="/courses/work-integrated-learning.aspx" title="Work-Integrated Learning">WIL</a>, <a href="/courses/internships.aspx" title="Internships">Internships</a></p></li><li class="ffhead"><a href="/careers.aspx" title="Careers">Careers</a></li><li class="ffitem"><p><a href="/careers/students.aspx" title="Students">Students</a>, <a href="/careers/employers.aspx" title="Employers">Employers</a>, <a href="/careers/joblinx.aspx" title="Joblinx">Joblinx</a></p></li></ul></li><li class="col" id="col2"><ul><li class="ffhead"><a href="/news-events.aspx" title="News &amp; Events">News &amp; Events</a></li><li class="ffitem"><p><a href="/news-events/news.aspx" title="News">Latest News</a>, <a href="/news-events/events.aspx" title="Events">Events</a>, <a href="/students/testimonials.aspx" title="Testimonials">Testimonials</a></p></li><li class="ffhead"><a href="/about-us.aspx" title="About">About</a></li><li class="ffitem"><p><a href="/about-us/brisbane-campus.aspx" title="Brisbane Campus">Campus</a>, <a href="" title="Publications">Publications</a>, <a href="/about-us/our-staff-.aspx" title="Our Staff ">Staff</a>, <a href="/about-us/contact-us.aspx" title="Contact Us">Contact</a></p></li><li class="ffhead"><a href="/students/student-portal.aspx" title="Login">Login</a></li><li class="ffitem"><p><a href="/students/student-portal.aspx" title="Student Portal">Student</a>, <a href="/staff-login.aspx" title="Staff Login">Staff</a>, <a href="/agents.aspx" title="Agents">Agent</a></p></li></ul></li><li class="col nomarr" id="col3"><ul><li class="ffhead"><a href="/about-us/our-locations.aspx" title="Where We Are Located">Where We Are Located</a></li><li class="ffitem"><div class="col1">349 Queen Street<br>Brisbane QLD 4000<br>Australia<br><a href="/locations-brisbane.aspx" id="view-map" title="View Map" rel="#overlay">View Map</a></div>
+<div class="col2">Tel: +61 7 3001 7800<br />Fax: +61 7 3001 7899</div></li><li class="ffitem footer-logos"><a href="http://www.iru.edu.au/" class="footer-logo first" target="_blank" title="Innovative Research Technologies"><img src="media/icn-innovativeresearchuniversities.png" alt="Innovative Research Technologies" /></a><a href="http://studyinaustralia.gov.au/Sia/Splash2.aspx" class="footer-logo second" target="_blank" title="Study In Australia"><img src="media/logo-australiafutureunlimited-half.png" alt="Study In Australia" /></a></li></ul></li></ul></div><div id="footer"><ul class="fixedwidthcentered nolist"><li class="link last"><a href="/privacy.aspx" title="Privacy">Privacy</a></li><li class="link"><a href="/disclaimer.aspx" title="Disclaimer">Disclaimer</a><span class="pipe">|</span></li><li class="link"><a href="/sitemap.aspx" title="Site Map">Site Map</a><span class="pipe">|</span></li><li class="first">CRICOS Provider Code: 00117J<span class="pipe">|</span></li><li>ABN: 46253211955<span class="pipe">|</span></li><li>Copyright © 2011 James Cook University Brisbane (Operated by Russo Higher Education).</li></ul></div>
+      
+  </div>
+
+<!-- overlayed element -->
+<div class="apple_overlay" id="overlay">
+
+	<!-- the external content is loaded inside this tag -->
+	<div class="contentWrap"></div>
+
+</div>
+
+</body>
+</html>
+
